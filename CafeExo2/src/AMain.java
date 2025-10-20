@@ -30,7 +30,7 @@ public class AMain {
                 Arrays.asList(
                         new Client("Moka_600", new Cafe(TypeCafe.MOKA,600), false),
                         new Client("Moka_2000", new Cafe(TypeCafe.MOKA,2000), new Tasse(2000)),
-                        new Client("Moka_2000", new Cafe(TypeCafe.MOKA,2000), new Tasse(1000))
+                            new Client("Moka_2000", new Cafe(TypeCafe.MOKA,2000), new Tasse(1000))
                 )) ;
 
         Restaurant restoMesClientsEtrange = checkFactureTotal(mesClientsEtrange) ;
